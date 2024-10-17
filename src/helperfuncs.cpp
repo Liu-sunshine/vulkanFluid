@@ -14,4 +14,4 @@ void HelperFuncs::ReadFile(const char *filename, std::vector<char>& bytes)
     bytes.resize(size);
     ifs.read(bytes.data(),size);
     ifs.close();
-}
+}\\
